@@ -1,0 +1,16 @@
+qiskit==1.2.4
+qiskit-aer==0.15.1
+qiskit-ibm-runtime==0.33.0
+qiskit-experiments[extras]==0.8.0
+cvxpy==1.5.3
+numpy 
+pandas
+matplotlib
+tqdm
+ipython
+#jupyterlab
+qutip==5.1.1
+jax==0.6.2
+#jax[cuda12]
+optax==0.2.5
+qutip-jax==0.1.1

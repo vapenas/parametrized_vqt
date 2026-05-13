@@ -1,0 +1,13 @@
+__pycache__
+*.jpg
+*.png
+*.zip
+*.rar
+*.npy
+*.json
+*.ipynb
+*.swp
+#runs/
+#Estados_random/*
+#!Estados_random/generador_estados_random.py
+tests/
