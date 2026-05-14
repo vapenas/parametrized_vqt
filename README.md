@@ -10,7 +10,15 @@ pip install -r requirements.txt
 
 ## Usage
 
-Run the main tomography script:
+First, generate the random states (run from inside `Estados_random/`):
+
+```bash
+cd Estados_random
+python3 generate_random_states.py
+cd ..
+```
+
+Then run the main tomography script:
 
 ```bash
 python3 main_loop_sic-povm_obs.py
@@ -34,7 +42,7 @@ Edit `config.ini` to configure the run. Key sections:
 ├── state_tomography.py        # Tomography algorithms
 ├── generate_mediciones.py     # Measurement generation
 ├── load_config.py             # Configuration loader
-├── Estados_random/            # Random state generators
+├── Estados_random/            # Random state generators (generate random states script is inside)
 ├── runs/                      # Output directory (reconstructed states, results)
 ├── Mediciones/                # Generated measurements
 ├── tomografia/                # Tomography utilities
